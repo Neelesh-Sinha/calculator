@@ -48,9 +48,6 @@ class Calculator {
         case '/':
           computation = prev / current
           break
-        case '!':
-          computation = Math.sqrt(current); 
-          break
         default:
           return
       }
